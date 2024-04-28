@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <div class="header">
+      <div class="header__left">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+          alt=""
+        />
+        <div class="header__input">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Search Fakebook" />
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__option active">
+          <span class="material-icons"> home </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> flag </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> subscriptions </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> storefront </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> supervised_user_circle </span>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="header__info">
+          <img
+            class="user__avatar"
+            src="images/george_avatar.png"
+            alt=""
+          />
+          <h4>George</h4>
+        </div>
+        <span class="material-icons"> add </span>
+        <span class="material-icons"> forum </span>
+        <span class="material-icons"> notifications_active </span>
+        <span class="material-icons"> expand_more </span>
+      </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- main body starts -->
+    <div class="main__body">
+      <!-- sidebar starts -->
+      <div class="sidebar">
+        <div class="sidebarRow">
+          <img
+            class="user__avatar"
+            src="images/george_avatar.png"
+            alt=""
+          />
+          <h4>George</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> local_hospital </span>
+          <h4>Covid - 19 Information Center</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> emoji_flags </span>
+          <h4>Pages</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> people </span>
+          <h4>People</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> chat </span>
+          <h4>Messenger</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> storefront </span>
+          <h4>Marketplace</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> video_library </span>
+          <h4>Videos</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> expand_more </span>
+          <h4>More</h4>
+        </div>
+      </div>
+      <!-- sidebar ends -->
+
+      <!-- feed starts -->
+      <div class="feed">
+
+        <!-- message sender starts -->
+        <div class="messageSender">
+          <div class="messageSender__top">
+            <img
+              class="user__avatar"
+              src="images/george_avatar.png"
+              alt=""
+            />
+            <form>
+              <input class="messageSender__input" placeholder="What's on your mind?" type="text" />
+            </form>
+          </div>
+
+          <div class="messageSender__bottom">
+            <div class="messageSender__option">
+              <span style="color: red" class="material-icons"> videocam </span>
+              <h3>Live</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: green" class="material-icons"> photo_library </span>
+              <h3>Photo</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: orange" class="material-icons"> insert_emoticon </span>
+              <h3>Feeling</h3>
+            </div>
+          </div>
+        </div>
+        <!-- message sender ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="https://cdn1.iconfinder.com/data/icons/avatars-90/512/african_woman_curly_hair_user_avatar-1024.png"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Rebecca</h3>
+              <p>21 April</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>Woah mate, think you need to change your passwords. You've been hacked!?</p>
+          </div>
+
+          <div class="post__image">
+            <img
+              src="https://www.malwarebytes.com/easset_upload_file37080_257416_e.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="https://th.bing.com/th/id/OIP.Rl1v5BC7TrvRtx-jIuZNxgHaIA?pid=ImgDet&rs=1"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Fergus</h3>
+              <p>20 April</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>Thanks for the email. I had no idea you were stuck abroad. I clicked the link on your email and transferred the money you need. Hope you get back OK! Hugs</p>
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="images/george_avatar.png"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>George</h3>
+              <p>20 April</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>There's some strange things happening on my account. I think maybe I've been hacked!!!?!?</p>
+          </div>
+
+          <div class="post__image">
+            <img src="https://wallpapercave.com/wp/wp7357832.jpg" alt="" />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Eleanor</h3>
+              <p>20 April</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>Dont tell anyonne but we're off to a party tomorrow night George - wanna come? Message me for details</p>
+          </div>
+
+          <div class="post__image">
+            <img src="" alt="" />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+
+
+
+
+        
+      </div>
+      <!-- feed ends -->
+
+      <div style="flex: 0.33" class="widgets">
+        <div
+          class="fb-page"
+          data-href=""
+          data-tabs="timeline"
+          data-width="500"
+          data-height="1000"
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true"
+        >
+          <blockquote cite="" class="fb-xfbml-parse-ignore">
+            <a href="">Facebook</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- main body ends -->
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0"
+      nonce="zUxEq08J"
+    ></script>
+  </body>
+</html>
